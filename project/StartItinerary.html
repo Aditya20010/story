@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Your Custom itinerary to India">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+       
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />  
+    <link rel="stylesheet" href="assets/css/styles-1.css" />
+    
+
+		
+     
+    <title>itinerary creation</title>
+   
+  
+
+</head>
+
+
+
+
+<body>
+  <header id="header" class="alt">
+   
+    <div class="logo"><a href="index.html">Road Trip <span>by TEMPLATED</span></a></div>
+    <a href="javascript:history.back(1)" class="container pp">Previous page</a> 
+    <a href="#menu"><span>Menu</span></a>
+    
+</header>
+<nav id="menu">
+  <ul class="links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="how-it-works.html">How it works</a></li>
+    <li><a href="startitinerary.html">Begin Planning</a></li>
+    <li><a href="elements.html">Elements</a></li>
+  </ul>
+ </nav>
+ 
+    <div class="container">
+      <a href="javascript:history.back(1)" class="container pp"><label for="exampleFormControlInput5">Previous page</label></a> 
+        <h1 class="padding">Data for itinerary</h1>
+        
+
+        
+
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+
+                    <div class="form-group">
+                        <label for="exampleFormControlInput3">Name*</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address*</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com" required>
+                    </div>
+                  <!--  <div class="form-group">
+                        <label for="exampleFormControlInput4">How many people in the group?</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput4" placeholder="1 - 8">
+                    </div> -->
+                    <div class="form-group">
+                        <label for="exampleFormControlInput5">Itinerary begin date*</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput5" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput6">Where to start your itinerary*</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput6"
+                            placeholder="Hotel Name and Address / Airport etc." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput7">Itinerary end date*</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput7" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput6">Where to close your itinerary*</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput6"
+                            placeholder="Hotel Name and Address / Airport etc." required>
+                    </div>
+                    <!-- <div class="form-group">
+                        <label for="exampleFormControlSelect2">Preferred modes of transport (select as many as
+                            applicable) </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>Flight</option>
+                            <option>Over night intercity train</option>
+                            <option>Intracity Metro / Bus</option>
+                            <option>Intracity cab or tuk-tuk</option>
+                            <option>Intercity taxi</option>
+                            <option>Self Drive Car</option>
+                            <option>Self Drive Two Wheeler</option>
+                        </select>
+                    </div> 
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect7">What is your travel pace (select as many as applicable)
+                        </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect7">
+                            <option>Slow - 4 - 8 hours daily</option>
+                            <option>Medium - 6 - 10 hours daily </option>
+                            <option>Fast - 8 - 12 hours daily</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">If you have a bucket list for this trip (select as many
+                            as applicable) </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>Places of tourist interest</option>
+                            <option>Wild life safari</option>
+                            <option>Leh Road Trip (Drive on world's highest motorable Road</option>
+                            <option>Natural Beauty (Hills, Deserts, Beaches etc.)</option>
+                            <option>Historical Places</option>
+                            <option>Adventure Sports</option>
+                            <option>Self Driving / Riding trips</option>
+                        </select>
+                    </div> 
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Geographical locations you'd like to visit in this trip
+                            (select as many as applicable) </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>Any places in India</option>
+                            <option>Northern India covering J&K, Himachal Pradesh, Punjab, Haryana, Delhi, Uttar Pradesh
+                                and parts of Rajasthan</option>
+                            <option>North Eastern India covering Uttara Khand, Sikkim, Assam, Nagaland, Manipur,
+                                Mizoram, Tirupura, Meghalaya</option>
+                            <option>Eastern India covering Uttar Pradesh, Jharkhand, West Bengal, Bihar, Odisha,
+                                Chhatisgarh</option>
+                            <option>Central India covering Madhya Pradesh and Parts of Maharashtra</option>
+                            <option>Western India covering Gujarat, Parts of Maharashtra and Goa</option>
+                            <option>Southern India covering Telangana, Karnataka, Andhra Pradesh, Kerala and Tamil Nadu,
+                                Andaman Islands</option>
+                        </select>
+                       
+                    </div> -->
+                    
+
+                  <!--  <div class="form-group padding-3 ">
+                        <form class="">
+                            <div class="multiselect">
+                              <div class="selectBox" onclick="showCheckboxes()">
+                                <select   class="form-control" id="exampleFormControlSelect2">
+                                  <option>Select if you want to make this visit activity based or location based</option>
+                                </select>
+                                <div class="overSelect"></div>
+                              </div>
+                              <div id="checkboxes">
+                                <optgroup label="Activity based"></optgroup>
+                                <label></label>
+                                 <label for="">
+                                  <input type="checkbox" id="" /> Meditation</label>
+                                
+                                <label for="">
+                                  <input type="checkbox" id="" /> Yoga</label>
+                                <label for="">
+                                  <input type="checkbox" id="" /> Ayurveda</label>
+                                  <label for="">
+                                    <input type="checkbox" id="" /> Naturopathy</label>
+                                    <label for="">
+                                        <input type="checkbox" id="" /> Beaches</label>
+                                        <label for="">
+                                            <input type="checkbox" id="" /> Deserts</label>
+                                            <label for="">
+                                                <input type="checkbox" id="" /> Hills</label>
+                                                <label for="">
+                                                    <input type="checkbox" id="" /> Historical places</label>
+                                                    <label for="">
+                                                        <input type="checkbox" id="" /> Wild life</label>
+                                <optgroup label="If this is too much select standard tourist places, if you wish soo"></optgroup>
+                                <label></label>
+                                <label for="">
+                                    <input type="checkbox" id="" /> Taj MahaL, Agra</label>
+                                    <label for="">
+                                        <input type="checkbox" id="" /> Ellora Caves, Aurangabad</label> 
+                                        <label for="">
+                                            <input type="checkbox" id="" /> Golden Temple, Amritsar</label> 
+                                            <label for="">
+                                                <input type="checkbox" id="" /> Kanha National Park, Madhya Pradesh</label> 
+                                                <label for="">
+                                                    <input type="checkbox" id="" /> Palolem, Goa</label>  
+                                   <optgroup label="Location based"></optgroup>
+                                   <label></label> 
+                                   <label for="">
+                                    <input type="checkbox" id="" /> Northern India covering J&K, Himachal Pradesh, Punjab, Haryana, Delhi, Uttar Pradesh
+                                    and parts of Rajasthan</label> 
+                                    <label for="">
+                                        <input type="checkbox" id="" /> North Eastern India covering Uttara Khand, Sikkim, Assam, Nagaland, Manipur,
+                                        Mizoram, Tirupura, Meghalaya</label>
+                                        <label for="">
+                                            <input type="checkbox" id="" /> Eastern India covering Uttar Pradesh, Jharkhand, West Bengal, Bihar, Odisha,
+                                            Chhatisgarh</label>
+                                            <label for="">
+                                                <input type="checkbox" id="" /> Central India covering Madhya Pradesh and Parts of Maharashtra</label>
+                                                <label for="">
+                                                    <input type="checkbox" id="" /> Western India covering Gujarat, Parts of Maharashtra and Goa</label>
+                                                    <label for="">
+                                                        <input type="checkbox" id="" /> Southern India covering Telangana, Karnataka, Andhra Pradesh, Kerala and Tamil Nadu,
+                                                        Andaman Islands</label>
+
+
+                                                                   
+                            </div>
+                            </div>
+                          </form>
+                      <!--  <label for="exampleFormControlSelect2">Select if you want to make this visit activity based or location based </label>
+                       <select multiple  class="form-control" id="exampleFormControlSelect2"> 
+                           
+                        <optgroup label="Activity based"> 
+                           
+                                <option >Meditation</option>
+                                <option>Yoga</option>
+                                <option>Ayurveda</option>
+                                <option>Naturopathy </option>
+                                <option>Beaches</option>
+                                <option>Deserts</option>
+                                <option>Hills</option>
+                                <option>Historical places</option>
+                                <option>Wild life</option>
+                            
+                                 <optgroup label="If this is too much select standard tourist places, if you wish soo">
+                                    <option>Taj MahaL, Agra</option>
+                                    <option>Ellora Caves, Aurangabad</option>
+                                    <option>Golden Temple, Amritsar</option>
+                                    <option>Kanha National Park, Madhya Pradesh</option>
+                                    <option>Palolem, Goa</option>
+                                 </optgroup>
+                            </optgroup> 
+                            
+                            <optgroup label="Location based">
+                                <option>Northern India covering J&K, Himachal Pradesh, Punjab, Haryana, Delhi, Uttar Pradesh
+                                    and parts of Rajasthan</option>
+                                <option>North Eastern India covering Uttara Khand, Sikkim, Assam, Nagaland, Manipur,
+                                    Mizoram, Tirupura, Meghalaya</option>
+                                <option>Eastern India covering Uttar Pradesh, Jharkhand, West Bengal, Bihar, Odisha,
+                                    Chhatisgarh</option>
+                                <option>Central India covering Madhya Pradesh and Parts of Maharashtra</option>
+                                <option>Western India covering Gujarat, Parts of Maharashtra and Goa</option>
+                                <option>Southern India covering Telangana, Karnataka, Andhra Pradesh, Kerala and Tamil Nadu,
+                                    Andaman Islands</option>
+                            </optgroup>
+                          
+                        </select> 
+                    </div>
+                    <div class="form-group">
+                       <!-- <label for="exampleFormControlSelect2">India has a number of places of tourist interest (You can select one / multiple regions amongst India) </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                           <option>Any places in India</option> 
+                            <option>Northern India covering J&K, Himachal Pradesh, Punjab, Haryana, Delhi, Uttar Pradesh
+                                and parts of Rajasthan</option>
+                            <option>North Eastern India covering Uttara Khand, Sikkim, Assam, Nagaland, Manipur,
+                                Mizoram, Tirupura, Meghalaya</option>
+                            <option>Eastern India covering Uttar Pradesh, Jharkhand, West Bengal, Bihar, Odisha,
+                                Chhatisgarh</option>
+                            <option>Central India covering Madhya Pradesh and Parts of Maharashtra</option>
+                            <option>Western India covering Gujarat, Parts of Maharashtra and Goa</option>
+                            <option>Southern India covering Telangana, Karnataka, Andhra Pradesh, Kerala and Tamil Nadu,
+                                Andaman Islands</option>
+                                
+                        </select> 
+                        <label class="" for="exampleFormControlSelect2">You can also select a specific city or state to visit if you are short on time</label>
+                        <select  onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+                        <select  id ="state" class="form-control padding-3" required></select>
+                        <script language="javascript">print_state("sts");</script>
+                      <!-- <label class="padding-3" for="exampleFormControlSelect2">India is a great place for various activities(You can select multiple options for activities you prefer for this trip to india)</label>                  
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>Meditation</option>
+                        <option>Yoga</option>
+                        <option>Ayurveda</option>
+                        <option>Naturopathy tourism</option>
+                        <option>Beaches</option>
+                        <option>Deserts</option>
+                        <option>Hills</option>
+                        <option>Historical places</option>
+                        <option>Wild life</option>
+                        </select> 
+                        <label  for="exampleFormControlSelect2">If this is too much select standard tourist places, if you wish soo.</label> -->
+                    
+                <!--    <h3 class="padding">Thank you this is all the information we need to prepare your itinerary, Please expect an email from us within 3 days.
+                        Add itinerary.mysite.com to your email whitelist.
+                        Please submit the form now.</h3> -->
+						<label for="exampleFormControlInput6">Select the type of visit you want this to be*</label>
+<div class="accordion cont" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left cont-1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h4 class="cont-1">Activity Based</h4>
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">   
+
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>Meditation</option>
+                        <option>Yoga</option>
+                        <option>Ayurveda</option>
+                        <option>Naturopathy tourism</option>
+                        <option>Beaches</option>
+                        <option>Deserts</option>
+                        <option>Hills</option>
+                        <option>Historical places</option>
+                        <option>Wild life</option>
+                        </select> 
+                                      <optgroup label="If this is too much select standard tourist places, if you wish soo"></optgroup>
+                                    <select multiple class="form-control" id="exampleFormControlSelect2">
+									                   <option>Taj MahaL, Agra</option>
+                                    <option>Ellora Caves, Aurangabad</option>
+                                    <option>Golden Temple, Amritsar</option>
+                                    <option>Kanha National Park, Madhya Pradesh</option>
+                                    <option>Palolem, Goa</option>
+                                    </select>									
+	  
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0 cont-1">
+        <button class="btn btn-link btn-block text-left cont-1" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h4 class="cont-1">Location Based</h4>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">   <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>Northern India covering J&K, Himachal Pradesh, Punjab, Haryana, Delhi, Uttar Pradesh
+                                    and parts of Rajasthan</option>
+                                <option>North Eastern India covering Uttara Khand, Sikkim, Assam, Nagaland, Manipur,
+                                    Mizoram, Tirupura, Meghalaya</option>
+                                <option>Eastern India covering Uttar Pradesh, Jharkhand, West Bengal, Bihar, Odisha,
+                                    Chhatisgarh</option>
+                                <option>Central India covering Madhya Pradesh and Parts of Maharashtra</option>
+                                <option>Western India covering Gujarat, Parts of Maharashtra and Goa</option>
+                                <option>Southern India covering Telangana, Karnataka, Andhra Pradesh, Kerala and Tamil Nadu,
+                                    Andaman Islands</option>
+									</select>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0 cont-1">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div> -->
+  
+   <!-- <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Collapsible Group Item #1
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div> -->
+ 
+  
+                     <div class=""> 
+                        
+                        <button type="button" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Reset Form </button>
+                    </div>
+                    <!-- Footer -->
+<footer id="footer" class="page-footer font-small indigo center">
+  <div class="inner">
+
+      <h2>Contact Us</h2>
+
+      <form action="#" method="post">
+
+          <div class="field half first">
+              <label for="name">Name</label>
+              <input name="name" id="name" type="text" placeholder="Name">
+          </div>
+          <div class="field half">
+              <label for="email">Email</label>
+              <input name="email" id="email" type="email" placeholder="Email">
+          </div>
+          <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+          </div>
+          <ul class="actions">
+              <li><input value="Send Message" class="button alt" type="submit"></li>
+          </ul>
+      </form>
+      <div class="col-sm-6 col-md-3 item">
+          <h3>Links</h3>
+             
+              <a href="acknowledgements.html">Acknowledgements</a>   
+              <br>
+                                   
+              <a href="Feedback.html">Feedback</a>
+              <br>
+              <a href="request-a-feature.html">Request a feature</a>   
+      </div>
+
+      <ul class="icons">
+          <li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+      
+          <li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+          <li><a href="#" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+      </ul>
+
+      <div class="copyright">
+          &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+      </div>
+
+  </div>
+</footer>
+
+                    <!-- <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </div> -->
+
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script src="assets/js/jquery.scrolly.min.js"></script>
+                    <script src="assets/js/jquery.scrollex.min.js"></script>
+                    <script src="assets/js/skel.min.js"></script>
+                    <script src="assets/js/util.js"></script>
+                    <script src="assets/js/main.js"></script>
+ </body>
+
+</html>

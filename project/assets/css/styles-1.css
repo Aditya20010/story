@@ -1,0 +1,66 @@
+body {
+    background-color: #000000;
+}
+    .container {
+color:white;
+}
+.multiselect{
+ background-color: white; 
+ color: #000000;
+}
+
+.selectBox {
+position: relative;
+}
+
+.selectBox select {
+width: 100%;
+
+}
+
+.overSelect {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+#checkboxes {
+display: none;
+border: 1px black solid;
+}
+
+#checkboxes label {
+display: block;
+}
+
+#checkboxes label:hover {
+background-color: #1e90ff;
+}
+
+.cont{
+color: #000000;
+background-color: white;
+margin-bottom: 3%;
+margin-top: 1%;
+border-radius: 25px;
+}
+.cont-1{
+color: #000000;
+
+    
+}
+
+
+.button{
+padding-top: 3%;
+}
+.padding{
+padding-bottom: 2%;
+padding-top: 3%;
+font-size: 30px;
+}
+.pp{
+padding-left: 2px;
+}
